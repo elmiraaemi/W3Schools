@@ -2,7 +2,7 @@ body{
     padding: 0px;
     margin: 0px;
 }
-div{
+.menu{
     position: absolute;
     top: 0px;
     width: 100%;
@@ -15,7 +15,7 @@ div{
 .w{
     list-style-type: none;
 }
-a{
+.menu a{
     text-decoration: none;
     color: white;
     font-family: Verdana,sans-serif;
@@ -23,7 +23,7 @@ a{
     padding: 20px;
     height: 100%;
 }
-li{
+.menu li{
     float: left;
     color: white;
     margin: 0px;
@@ -36,18 +36,18 @@ li{
     position: relative;
     bottom: 5px;
 }
-.material-icons{
+#home{
     position: relative;
     bottom: -3px;
 }
-.material-icons:hover{
+#home:hover{
     color: black;
 }
 .akhary{
     position: absolute;
     right: 5px;
 }
- .submenu{
+.submenu{
     display: none;
     background-color: #fff;
     border: none;
@@ -98,7 +98,7 @@ li{
     top: 0px;
     left: -40px;
 }
-a:hover{
+.w a:hover{
     background-color: white;
     color: black;
 }
@@ -113,8 +113,8 @@ a:hover{
 .img1{
     position: absolute;
     top: 41px;
-    left: -1px;
     width: 100%;
+    height: 800px;
     margin: 0px;
 }
 svg{
@@ -125,7 +125,7 @@ svg{
 svg:hover{
     color: black;
 }
-button{
+#learn{
     position: absolute;
     top: 593px;
     left: 13px;
@@ -135,7 +135,7 @@ button{
     height: 59px;
     font-size: 25px;
 }
-button:hover{
+#learn:hover{
     background-color: #009688;
     color: white;
     border: none;
@@ -173,7 +173,7 @@ button:hover{
 }
 .team{
     background-color: white;
-    height: 300px;
+    height: 100%;
     width: 25%;
     border: none;
     padding: 0px;
@@ -190,34 +190,11 @@ button:hover{
     font-family: Verdana,sans-serif;
     margin-left: 40px;
 }
-#t1{
-    position: relative;
-    left: 20px;
-}
-#t2{
-    position: relative;
-    left: 30px;
-}
-#t3{
-    position: relative;
-    left: 40px;
-}
-#t4{
-    position: relative;
-    left: 50px;
-}
-.div3{
-    background-color: white;
-    border: none;
-    height: 300px;
-    width: 300px;
-    
-}
 .div3{
     background-color: #333333;
     border: none;
     width: 100%;
-    height: 700px;
+    height: 600px;
     display: flex !important;
     position: absolute;
     top: 1300px;
@@ -226,9 +203,9 @@ button:hover{
     background-color: #333333;
     border: none;
     width: 25%;
-    height: 600px;
-    margin-top: 90px;
-    padding: 0px 8px;
+    height: 100%;
+    padding: 10px;
+    padding-top: 50px;
 }
 .onvan{
     font-family: "Segoe UI",Arial,sans-serif;
@@ -247,12 +224,8 @@ button:hover{
     border: none;
     background-color: #ffffff;
     color: black;
-    height: 50%;
-    width: 374px;
-    position: relative;
-    top: -28px;
-    left: 2px;
-    margin-top: 0%;
+    height: 550px;
+    width: auto;
 }
 .imimg{
     width: 100%;
@@ -273,22 +246,6 @@ button:hover{
     font-family: "Segoe UI",Arial,sans-serif;
     font-size: 25px;
     margin-top: 0%;
-}
-#m1{
-    position: relative;
-    left: 5px;
-}
-#m2{
-    position: relative;
-    left: 15px;
-}
-#m3{ 
-    position: relative;
-    left: 25px;
-}
-#m4{
-    position: relative;
-    left: 35px;
 }
 .div4{
     position: relative;
@@ -320,11 +277,15 @@ button:hover{
     display: flex;
     margin: 0%;
 }
+.tab{
+    width: 33%;
+    height: 540px;
+}
 table{
-    width: 30%;
     background-color: #ffffff;
     border: #ddd solid 1px;
     height: 540px;
+    width: 90%;
     margin: 20px;
 }
 table:hover{
@@ -374,9 +335,14 @@ td button{
     font-family: "Segoe UI",Arial,sans-serif;
     font-size: 20px;
     width: 150px;
+    height: 50px;
     position: relative;
     top: -3px;
     left: -9px;
+}
+td button:hover{
+    background-color: #a5a3a3;
+    color: #000;
 }
 .pro{
     background-color: rgb(78, 78, 78);
@@ -394,7 +360,8 @@ td button{
     height: 500px;
     position: absolute;
     top: 2800px;
-    display: flex !important;
+    display: flex;
+    padding-top: 15px;
 }
 .us{
     width: 41%;
@@ -419,27 +386,24 @@ td button{
 .form{
     background-color: #ffffff;
     border: none;
-    /*width: 55%;*/
-    width: 900px;
+    width: 55%;
     height: 330px; 
     display: flex;
-    position: relative;
-    left: 700px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2) inset , 5px 5px 20px rgba(0, 0, 0, 0.19);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.19) inset , 5px 5px 20px rgba(0, 0, 0, 0.19);
 }
 form{
-    position: relative;
-    left: 10px;
-    top: 95px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 98%;
 }
-.form div{
+form div{
     background-color: #ffffff;
     border: none;
-    border-bottom: rgb(133, 131, 131) solid 1px;
-    height: 70px;
-    width: 870px;
-    /*width: 95%;
-     margin: 5px;*/
+    border-bottom: rgb(216, 214, 214) solid 1px;
+    width: 100%;
+    height: 24%;
+    margin: 5px;
     margin-left: 10px;
 }
 label{
@@ -447,11 +411,12 @@ label{
     font-family: Verdana, sans-serif;
     margin-left: 5px;
 }
-input{
+form input{
     background-color: #fff;
     border: none;
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 5px;
     width: 96%;
     height: 35px;
 }
@@ -467,6 +432,8 @@ input{
     height: 40px;
     font-size: 18px;
     margin: 0px;
+    background-color: #000;
+    color: #fff;
 }
 .like{
     position: relative;
@@ -484,50 +451,33 @@ input{
     font-weight: 400;
     margin: 0px;
 }
-#l1{
-    position: relative;
-    top: -90px;
-}
-#l2{
-    position: relative;
-    top: 10px;
-}
-#l3{
-    position: relative;
-    top: 15px;
-}
-#l4{
-    position: relative;
-    top: 20px;
-}
 .street{
     width: 100%;
     height: 1000px;
     position: absolute;
     top: 3200px;
 }
-.div6{
+footer{
     background-color: #000;
     position: absolute;
     top: 4200px;
     width: 100%;
     height: 300px;
 }
-.div6 h4{
+footer h4{
     color: #fff;
     font-family: "Segoe UI",Arial,sans-serif;
     font-size: 24px;
     font-weight: 400;
 }
-.div6 a{
+footer a{
     background-color: #009688;
     width: 20%;
     margin-left: 5px;
-    height: 25px;
+    height: 100%;
 }
-.div6 a:hover{
-    background-color: #333333;
-    color: #fff;
+footer a:hover{
+    background-color: #616060;
 }
 .ap {
     color: #ffffff;
@@ -539,13 +489,184 @@ input{
 .lk{
     color: #fff;
     font-family: Verdana, sans-serif;
-    margin: 90px;
+    margin: 30px;
 }
-.div6 div{
+footer div{
     background-color: #000;
     border: none;
     display: flex;
-    width: 200px;
-    margin-left: 40%;
-    margin-top: 80px;
+    width: 17%;
+    height: 15%;
+    margin-left: 41%;
+    margin-top: 40px;
+}
+.fa{
+    position: relative;
+    top: 25%;
+    left: 25%;
+    color: #fff;
+}
+.fa:hover{
+    color: #000;
+}
+
+
+
+@media only screen and (max-width:600px){
+    .w li{
+
+    }
+    .w a{
+        font-size: 10px;
+        padding: 5px;
+        padding-top: 16px;
+        padding-bottom: 12px;
+    }
+    .img1{
+        height: 250px;
+        width: 100%;
+    }
+    #learn{
+        position: relative;
+        top: 230px;
+        border: none;
+        width: 170px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .div2{
+        position: relative;
+        top: 200px;
+        padding: 0%;
+    }
+    .div2 h2{
+        position: relative;
+        top: 5px;
+        left: -8px;
+    }
+    .div2 h4{
+        position: relative;
+        top: -10px;
+        left: -10px;
+    }
+    .asli{
+        flex-wrap: wrap;
+        position: relative;
+        top: 8px;
+        left: 45px;
+    
+    }
+    .team{
+        width: 50%;
+        height: 200px;
+    }
+    .pic{
+        width: 100px;
+        height: 100px;
+    }
+    .team h2{
+        font-size:20px;
+        margin-top: 0%;
+    }
+    .team p {
+        font-size:14px;
+        margin-left: 0%;
+        position: relative;
+        top: -40px;
+        margin-left: 20px;
+    }
+    .div3{
+        position: relative;
+        top: 200px;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .matn{
+        width: 95%;
+        height: auto;
+        padding-left: 15px;
+    }
+    .div4{
+        position: relative;
+        top: 300px;
+    }
+    .pa{
+        font-size: 16px;
+        margin-left: 18px;
+    }
+    .table{
+        flex-wrap: wrap;
+        height: auto;
+        position: relative;
+        top: -80px;
+    }
+    .tab{
+        width: 99%;
+        margin: 8px;
+    }
+    table{
+        width: 95%;
+    }
+    td p{
+        font-size: 15px;
+    }
+    td button{
+        width: 120px;
+        height: 50px;
+    }
+    .last{
+        padding-left: 118px;
+    }
+    .div5{
+        position: relative;
+        top: 1400px;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .us{
+        width: 95%;
+    }
+    .us span{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .us h3{
+        font-size: 17px;
+        font-weight: 300;
+    }
+    .us p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .form{
+        width: 95%;
+    }
+    form div{
+        width: 95%;
+    }
+    .send{
+        position: relative;
+        left: 240px;
+    }
+
+
+
+
+
+    .street{
+        position: relative;
+        top: 1450px;
+        width: 100%;
+        height: auto;
+    }
+    footer{
+        position: relative;
+        top: 1415px;
+        width: 100%;
+        height: 250px;
+    }
+    footer div{
+        width: 60%;
+        margin-left: 75px;
+    }
 }
