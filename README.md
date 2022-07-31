@@ -1,4 +1,5 @@
-# tamrin7![Screenshot (42)](https://user-images.githubusercontent.com/108354246/181051295-b2eb7cd5-d096-496d-a096-a19e0ef974ce.png)
+# W3School
+![Screenshot (42)](https://user-images.githubusercontent.com/108354246/181051295-b2eb7cd5-d096-496d-a096-a19e0ef974ce.png)
 ![Screenshot (43)](https://user-images.githubusercontent.com/108354246/181051381-d9e5eac4-b98e-4eb5-9245-0d09f30d125b.png)
 ![Screenshot (38)](https://user-images.githubusercontent.com/108354246/181051437-fd2bbfcb-af12-450f-bb3e-90840b097379.png)
 ![Screenshot (39)](https://user-images.githubusercontent.com/108354246/181051463-6f6dc356-0ccc-4688-9e98-d32d93a696c2.png)
